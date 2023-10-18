@@ -48,7 +48,7 @@ class Server
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Erro no servidor! " + ex.Message);
+            Console.WriteLine("Erro no servidor! Exceção: " + ex.Message);
         }
     }
 
@@ -59,7 +59,7 @@ class Server
 
         switch (command)
         {
-            case "add-client":
+            case "a":
                 if (request.Length == 4)
                 {
                     string nome = request[1].Trim();
@@ -75,9 +75,9 @@ class Server
                         return "Cliente já existe!";
                 }
                 else
-                    return "Formato inválido para adicionar cliente!! Correto: add-client|nome|cpf|endereco";
+                    return "Formato inválido para adicionar cliente!!";
 
-            case "remove-client":
+            case "r":
                 if (request.Length == 2)
                 {
                     string nome = request[1].Trim();
@@ -90,10 +90,14 @@ class Server
                     else
                         return "Cliente não encontrado!!";
                 }
+                else if(request.Length == 1)
+                {
+                    clientDB = new Dictionary<string, DadosClient>();
+                    return "Todos os clientes foram removidos!";
+                }
                 else
-                    return "Formato inválido para remover cliente!! Correto: remove-client|nome";
-
-            case "consultar-client":
+                    return "Formato inválido para remover cliente!!";
+            case "c":
                 if (request.Length == 2)
                 {
                     string nome = request[1].Trim();
@@ -106,8 +110,18 @@ class Server
                     else
                         return "Cliente não encontrado!!";
                 }
+                else if(request.Length == 1)
+                {
+                    string txt = "";
+
+                    foreach (var client in clientDB)  {
+                        txt += $"Nome: {client.Key}, CPF: {client.Value.CPF}, Endereco: {client.Value.Endereco}\n";
+                    }
+
+                    return txt;
+                }
                 else
-                    return "Formato inválido para consultar cliente!! Correto: consultar-client|nome";
+                    return "Formato inválido para consultar cliente!!";
 
             default:
                 return "Comando inválido!!";

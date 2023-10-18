@@ -16,17 +16,26 @@ class Client
             TcpClient client = new TcpClient(serverIP, serverPort);
             NetworkStream stream = client.GetStream();
 
-            Console.WriteLine("**   Digite um dos comandos abaixo:   **");
-            Console.WriteLine("**   add-client|nome|cpf|endereco     **");
-            Console.WriteLine("**   remove-client|nome               **");
-            Console.WriteLine("**   consultar-client|nome            **");
-            Console.WriteLine("**   sair                             **");
+            Console.WriteLine("*********************************************");
+            Console.WriteLine("**   Instruções:                           **");
+            Console.WriteLine("**        a significa adicionar cliente;   **");
+            Console.WriteLine("**        r significa remover cliente;     **");
+            Console.WriteLine("**        c significa consultar cliente;   **");
+            Console.WriteLine("**        s significa sair;                **");
+            Console.WriteLine("**   Sintaxe dos comandos:                 **");
+            Console.WriteLine("**   a|nome|cpf|endereco                   **");
+            Console.WriteLine("**   r|nome (remove cliente específico)    **");
+            Console.WriteLine("**   c|nome (consulta cliente específico)  **");
+            Console.WriteLine("**   r (remove todos os clientes)          **");
+            Console.WriteLine("**   c (consulta todos os clientes)        **");
+            Console.WriteLine("**   s                                     **");
+            Console.WriteLine("*********************************************");
 
             while (true)
             {
                 //Lê a opção
                 string input = Console.ReadLine();
-                if (input.Equals("sair"))
+                if (input.Equals("s"))
                     break;
 
                 //Envia a requisição
@@ -46,7 +55,7 @@ class Client
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Erro no cliente!! " + ex.Message);
+            Console.WriteLine("Erro no cliente!! Exceção: " + ex.Message);
         }
     }
 }

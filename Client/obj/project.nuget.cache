@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ny3wWurO6Gpq1hcMoNa7Nv5Fe5OI9iZIJzfKe1/Bcl86Cf8f8auf6B0HihoHMz0rKE7CjLues7svE35mmkE06A==",
+  "dgSpecHash": "JTd7nzPhIBjRKgcMNLlJvp0SzYIVci1KjVedrDrgctFfEhmMXmOCtMqbW6WTq5x5WKTkrHfWxn1COZ+0Po0VLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Client\\Client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

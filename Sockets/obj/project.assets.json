@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Sockets.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Sockets\\Sockets.csproj",
       "projectName": "Sockets",
-      "projectPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Sockets.csproj",
+      "projectPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Sockets\\Sockets.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\obj\\",
+      "outputPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Sockets\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",

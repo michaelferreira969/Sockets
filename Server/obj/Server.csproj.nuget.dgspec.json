@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Server\\Server.csproj": {}
+    "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Server\\Server.csproj": {
+    "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Server\\Server.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Server\\Server.csproj",
+        "projectPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Server\\obj\\",
+        "outputPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",

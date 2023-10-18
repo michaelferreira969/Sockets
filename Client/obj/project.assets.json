@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Client\\Client.csproj",
+      "projectPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Client\\obj\\",
+      "outputPath": "C:\\Users\\micha\\Desktop\\Faculdade\\8 Semestre\\Sistemas Distribuídos\\Trabalho 2 - Sockets\\Sockets\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
