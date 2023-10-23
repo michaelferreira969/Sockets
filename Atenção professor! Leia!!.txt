@@ -1,0 +1,8 @@
+Olá, professor, tudo bem?
+
+ Este projeto fiz em no Visual Studio 2022, por isso tem uma pasta sockets com a solução ".sln". Com ela é possível executar o projeto. 
+
+ Porém, os executáveis podem ser encontrados seguindo as pastas:
+Sockets\Client\bin\Debug\net6.0\Client.exe
+
+Sockets\Server\bin\Debug\net6.0\Server.exe
